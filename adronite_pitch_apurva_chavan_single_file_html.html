@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apurva Chavan → Adronite | Why Me & How I Can Help</title>
+  <meta name="description" content="Apurva Ravikar Chavan — software/ML engineer focused on AI for code understanding. Tailored pitch for Adronite." />
+  <style>
+    :root {
+      --bg:#0b0f14; --card:#111827; --ink:#e5e7eb; --muted:#9ca3af; --brand:#60a5fa; --accent:#34d399; --chip:#1f2937; --ring:#4b5563;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* Unified alignment */
+    header, .hero, .grid, footer{max-width:1100px;margin:0 auto}
+    header{padding:28px 20px 10px;text-align:center}
+    .tag{display:inline-flex;gap:.5ch;align-items:center;background:var(--chip);color:var(--muted);padding:6px 10px;border:1px solid var(--ring);border-radius:999px;font-size:12px}
+
+    /* Hero */
+    .hero{padding:24px 20px 10px;display:grid;grid-template-columns:1.25fr .75fr;gap:28px;align-items:start}
+    .hero h1{font-size:clamp(28px,3.3vw,44px);line-height:1.15;margin:0 0 12px}
+    .hero p{color:var(--muted);font-size:clamp(14px,1.5vw,18px);margin:0}
+    .cta{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+    .btn{background:var(--brand);color:#081018;padding:12px 16px;border-radius:12px;border:none;font-weight:700;letter-spacing:.2px}
+    .btn.alt{background:transparent;border:1px solid var(--ring);color:var(--ink)}
+
+    /* Cards & grid */
+    .grid{margin:12px auto 60px;padding:0 20px;display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .card{grid-column:span 12;background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px}
+    .card h3{margin:0;font-size:20px;line-height:1.3}
+    .card p{margin:0;color:var(--muted)}
+
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+    .chips{display:flex;gap:10px;flex-wrap:wrap}
+
+    /* Lists tidy & aligned */
+    .list{display:grid;gap:10px;list-style:none;margin:0;padding-left:0}
+
+    /* Projects: neatly aligned 3→2→1 grid */
+    .card h3 + .two-col{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}
+    .project{border:1px solid var(--ring);border-radius:14px;padding:14px;background:#0f172a;display:flex;flex-direction:column;gap:8px}
+    .project h4{margin:0;font-size:16px;line-height:1.25}
+    .project p{margin:0;color:var(--muted);font-size:14px;flex:1}
+    .project a.more{font-size:13px;align-self:flex-start}
+
+    footer{margin:20px auto 40px;padding:0 20px;color:var(--muted);border-top:1px dashed var(--ring);padding-top:16px;text-align:center}
+
+    /* Responsive */
+    @media (max-width:1024px){ .card h3 + .two-col{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:900px){ .hero{grid-template-columns:1fr;gap:16px} }
+    @media (max-width:640px){ .card h3 + .two-col{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">👋 Apurva Chavan • Software/ML Engineer • CT, USA</span>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>AI for Code Understanding — I want to help Adronite ship faster, safer features.</h1>
+      <p>
+        I build production‑grade ML + backend tools: Python/SQL, FastAPI/Flask, Docker, CI/CD, AWS/GCP. I’ve shipped
+        end‑to‑end pipelines (NLP, RAG, time‑series) and developer‑facing APIs. Strong product mindset, bias to iterate,
+        and clean docs/PRs.
+      </p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/Apurva1205" target="_blank" rel="noopener">View GitHub</a>
+        <a class="btn alt" href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn alt" href="mailto:apurvachavan125@gmail.com">Email Me</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>At a glance</h3>
+      <div class="chips" aria-label="skills">
+        <span class="tag">Python</span>
+        <span class="tag">FastAPI / Flask</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Docker</span>
+        <span class="tag">AWS / GCP</span>
+        <span class="tag">PyTorch / TensorFlow</span>
+        <span class="tag">RAG / LLM eval</span>
+        <span class="tag">ETL / Airflow patterns</span>
+      </div>
+      <p style="margin-top:10px">M.S. in Data Science (May 2025). Comfortable with production code, testing, and version control; cloud‑ready, hybrid in Hartford, CT.</p>
+    </div>
+  </section>
+
+  <main class="grid">
+    <section class="card two-col">
+      <div>
+        <h3>Why me for Adronite?</h3>
+        <ul class="list">
+          <li>🧠 <strong>ML + Product</strong>: I ship user‑visible features and internal tools, not just notebooks.</li>
+          <li>⚙️ <strong>Platform thinking</strong>: Build ingestion → analysis → search → explain flows for large codebases.</li>
+          <li>🔌 <strong>API‑first</strong>: Clear boundaries, typed contracts, auth, observability, and docs.</li>
+          <li>🚀 <strong>Speed with safety</strong>: Small PRs, measurable impact, and guardrails (tests, eval harnesses).</li>
+        </ul>
+      </div>
+      <div>
+        <h3>How I can help your roadmap</h3>
+        <ul class="list">
+          <li>📥 <strong>Code ingestion & lineage</strong>: Repo crawlers, dependency graphs, commit/event pipelines.</li>
+          <li>🔎 <strong>Semantic code search</strong>: Embeddings for code + docs, reranking, and relevance eval loops.</li>
+          <li>🛡️ <strong>Risk & compliance cues</strong>: Surface PII/secret leakage, license issues, ownership hints.</li>
+          <li>🧩 <strong>Dev‑onboarding views</strong>: Ownership maps, "how this works" explainers, PR‑aware summaries.</li>
+          <li>📈 <strong>Analytics</strong>: Usage telemetry to drive product decisions (what insights devs actually use).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Selected Projects (relevant to Adronite)</h3>
+      <div class="two-col">
+        <article class="project">
+          <h4>AI Resume Enhancer — IR/RAG + Scoring</h4>
+          <p>End‑to‑end NLP pipeline: parse text, embed, retrieve, score gaps, and serve via API. Shows ability to design evaluation loops and ship APIs.</p>
+          <a class="more" href="https://github.com/Apurva1205/AI-RESUME-ENHANCER" target="_blank" rel="noopener">Repo →</a>
+        </article>
+        <article class="project">
+          <h4>Tokenizers (BPE/experiments)</h4>
+          <p>Built custom tokenization utilities and experiments—useful when designing code‑aware embeddings or chunkers.</p>
+          <a class="more" href="https://github.com/Apurva1205/Tokenizers" target="_blank" rel="noopener">Repo →</a>
+        </article>
+        <article class="project">
+          <h4>Time‑Series Forecasting for Energy</h4>
+          <p>Production‑minded modeling (LSTM/ARIMA), data pipelines, and metrics; demonstrates rigor and MLOps habits.</p>
+          <a class="more" href="https://github.com/Apurva1205/Time-Series-Forecasting-For-Energy-Consumption" target="_blank" rel="noopener">Repo →</a>
+        </article>
+        <article class="project">
+          <h4>Flask App + APIs</h4>
+          <p>Simple but clean app patterns (blueprints, configs, envs) — the same care I’d bring to platform endpoints.</p>
+          <a class="more" href="https://github.com/Apurva1205/Flask-app" target="_blank" rel="noopener">Repo →</a>
+        </article>
+        <article class="project">
+          <h4>News Category Classification</h4>
+          <p>Text classification with modern ML; groundwork for language‑aware components (summarizers/explainers).</p>
+          <a class="more" href="https://github.com/Apurva1205/News-Category-Classification" target="_blank" rel="noopener">Repo →</a>
+        </article>
+        <article class="project">
+          <h4>Text Classification (PyTorch)</h4>
+          <p>Custom training loops, metrics, and dataset hygiene — relevant for evaluation harnesses around AI assistants.</p>
+          <a class="more" href="https://github.com/Apurva1205/Text-Classification" target="_blank" rel="noopener">Repo →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="card two-col">
+      <div>
+        <h3>Technical Strengths</h3>
+        <div class="chips">
+          <span class="tag">Python • SQL</span>
+          <span class="tag">FastAPI • Flask</span>
+          <span class="tag">PyTorch • TensorFlow</span>
+          <span class="tag">RAG • Embeddings • Eval</span>
+          <span class="tag">Airflow patterns • dbt</span>
+          <span class="tag">Docker • CI/CD</span>
+          <span class="tag">AWS • GCP (Azure‑ready)</span>
+          <span class="tag">Spark (working knowledge)</span>
+        </div>
+      </div>
+      <div>
+        <h3>Ways to collaborate (first 90 days)</h3>
+        <ol class="list">
+          <li><strong>Ship</strong> a repo‑ingestion microservice (incremental crawls, SBOM/license scan, embeddings job).</li>
+          <li><strong>Deliver</strong> a code‑aware semantic search + reranker with offline eval dashboard.</li>
+          <li><strong>Add</strong> an "Explain this file/module" prototype (static + dynamic signals, tests, docs).</li>
+          <li><strong>Harden</strong> CI (typing, unit/integration tests, perf budgets, basic observability).</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>Built by Apurva Ravikar Chavan • <a href="mailto:apurvachavan125@gmail.com">apurvachavan125@gmail.com</a> • <a href="tel:+12034104412">+1 (203) 410‑4412</a></div>
+    <div>GitHub: <a href="https://github.com/Apurva1205" target="_blank" rel="noopener">Apurva1205</a> • LinkedIn: <a href="https://www.linkedin.com/in/apurvachavan125/" target="_blank" rel="noopener">@apurvachavan125</a></div>
+  </footer>
+</body>
+</html>
